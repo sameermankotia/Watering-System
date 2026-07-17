@@ -4,8 +4,6 @@
  * Everything in here is a stub. The moisture reading is simulated: it slowly
  * dries out over time, and jumps back up when the pump runs. That way the
  * state machine in main.c actually has something to react to.
- *
- * On real hardware you'd delete most of this and call your MCU's HAL instead.
  */
 #include "hal.h"
 #include <stdio.h>
