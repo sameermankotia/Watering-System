@@ -4,7 +4,7 @@ Small embedded project I put together to learn FreeRTOS. Idea is pretty simple:
 keep a plant's soil above some moisture level. A sensor reads the soil, and if
 it gets too dry we turn on a water pump for a bit, then stop and let it soak in.
 
-Wrote it to practice the stuff that keeps coming up in embedded interviews:
+Wrote it to practice the stuff that keeps coming up in embedded system development:
 tasks, scheduling, queues/semaphores, an ISR, and a state machine.
 
 ## What it does
